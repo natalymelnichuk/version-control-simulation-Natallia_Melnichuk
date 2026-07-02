@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    background: #e4cbde;
+    width: 100vw;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2em;
+}
+
+.header a {
+    color: rgb(58, 16, 97);
+    text-decoration: none;
+}
+
+.header ul {
+    width: 50%;
+    padding: 1em 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+header button {
+    background: rgb(158, 134, 158);
+    color: rgb(58, 16, 97);
+    border: 1px solid black;
+    border-radius: 1.5em;
+    padding: 0.5em 1em;
+}
+
+.header button:hover {
+    background-color: #e4cbde;
+}
+
+main {
+    height: 50%;
+    background: url(./assets/Rectangle\ 1.png) center/cover;
+    display: flex;
+    justify-content: center;
+}
+
+main h2 {
+    margin: 0;
+}
+
+.hero {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero h2, p {
+    text-align: center;
+    color: rgb(58, 16, 97);
+    padding: 0.5em 0;
+}
+
+.hero button {
+    background: rgb(158, 134, 158);
+    color: rgb(58, 16, 97);
+    border: 1px solid black;
+    border-radius: 1.5em;
+    padding: 0.5em 1em;
+    margin-top: 1em;
+    width: 10em;
+}
+
+.hero button:hover {
+    background-color: #e4cbde;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: rgb(58, 16, 97);
+    padding: 0 2em;
+}
+
+footer i {
+    color: rgb(58, 16, 97);
+}
+
+.footer-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
